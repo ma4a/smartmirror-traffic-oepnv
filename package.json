@@ -1,0 +1,23 @@
+{
+  "name": "smartmirror-traffic-s-bahn-stuttgart",
+  "version": "1.0.0",
+  "description": "SmartMirror module for current S-Bahn delays in Stuttgart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Schmidt",
+  "dependencies": {
+    "log": "^1.4.0"
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "smartmirror": {
+    "settings": {},
+    "size": [
+      "4x4"
+    ]
+  }
+}
